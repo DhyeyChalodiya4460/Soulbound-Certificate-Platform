@@ -1,0 +1,21 @@
+{
+  "name": "contracts",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "clean": "hardhat clean",
+    "compile": "hardhat compile",
+    "deploy:sepolia": "hardhat run --network sepolia deploy.js",
+    "deploy:save:sepolia": "hardhat run --network sepolia scripts/deploy-and-save.js",
+    "deploy:local": "hardhat run --network localhost deploy.js"
+  },
+  "devDependencies": {
+    "hardhat": "^2.22.5",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "dotenv": "^16.4.5"
+  },
+  "dependencies": {
+    "ethers": "^5.7.2",
+    "@openzeppelin/contracts": "^4.9.6"
+  }
+}

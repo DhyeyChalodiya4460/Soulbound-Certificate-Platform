@@ -1,0 +1,14 @@
+{
+  "name": "Student Certificate",
+  "description": "Bachelor of Science in Computer Science",
+  "student_name": "Alice Smith",
+  "degree": "B.Sc. Computer Science",
+  "course": "Computer Science",
+  "grade": "A+",
+  "issue_date": "2025-09-01",
+  "university": {
+    "name": "Example University",
+    "address": "123 University Ave, City, Country"
+  },
+  "image": "https://ipfs.io/ipfs/QmExampleImageHash/certificate.png"
+}
