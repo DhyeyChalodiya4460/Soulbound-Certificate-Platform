@@ -1,0 +1,91 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+/dist/
+/build/
+/out/
+
+# Framework and tool caches
+.next/
+.nuxt/
+.svelte-kit/
+.turbo/
+.vercel/
+.serverless/
+.parcel-cache/
+.cache/
+.tmp/
+.temp/
+
+# Test coverage and reports
+coverage/
+.nyc_output/
+
+# TypeScript
+*.tsbuildinfo
+
+# Lint cache
+.eslintcache
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment files (keep examples)
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# OS/editor
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Python caches (just in case)
+__pycache__/
+.pytest_cache/
+
+# Hardhat (contracts)
+contracts/artifacts/
+contracts/cache/
+contracts/cache_hardhat/
+contracts/coverage/
+contracts/coverage.json
+contracts/typechain/
+contracts/typechain-types/
+contracts/.env
+!contracts/.env.example
+
+# Frontend-specific
+frontend/build/
+frontend/dist/
+frontend/.cache/
+frontend/.parcel-cache/
+frontend/.next/
+frontend/.nuxt/
+frontend/.svelte-kit/
+frontend/.turbo/
+frontend/.vercel/
+frontend/coverage/
+
+# Backend-specific
+backend/dist/
+backend/build/
+backend/coverage/
+backend/.nyc_output/
+
+# Note: lockfiles are intentionally kept to ensure reproducible installs
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
